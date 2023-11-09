@@ -1,2 +1,44 @@
-# WanderLogixs
+### WanderLogixs
 Capstone Project 
+
+*Project Proposal: WanderLogixs App*
+
+Project Description:
+The proposed project involves the creation of a user-friendly travel tracker app that aims to collect and store user data related to their travel experiences. This application will allow users to easily document and manage their travel itineraries, expenses, memories, and other pertinent information associated with their journeys. 
+
+Problem Solving:
+The primary problem addressed by this web application is the challenge of efficiently organizing and archiving travel-related data. Many people struggle to keep track of their travel experiences, including destinations, dates, expenses, and memories. Existing solutions are often fragmented, cumbersome, or lack user-friendliness, making it difficult for users to compile and retrieve information when needed. Our travel tracker app seeks to streamline this process by offering a centralized platform to store, access, and manage travel data.
+
+User Personas:
+The web application will cater to a diverse range of user personas, including frequent travelers, travel enthusiasts, business professionals, and adventurers. Frequent travelers, for instance, can benefit from a tool that helps them maintain detailed records of their journeys. Travel enthusiasts might use the app to document and share their experiences, while business professionals can conveniently track their expenses and create expense reports. Adventurers can keep a record of their unique and off-the-beaten-path experiences.
+
+Value and Benefits:
+The benefits derived from solving this problem are substantial. By offering users a single platform to record and manage their travel information, the application saves them time and effort in organizing their experiences. It provides a means to relive memories and share travel stories with others. The convenience of having a comprehensive travel diary accessible on their smartphones can lead to improved planning and cost management. While there is a cost to building and maintaining the application, the benefits in terms of user satisfaction, organization, and improved travel experiences easily justify the expenses.
+
+User Interaction:
+Anticipated users would solve their travel-related problems by easily inputting information into the app during or after their trips. They would interact with the application through an intuitive and user-friendly interface, entering data such as travel dates, destinations, expenses, photos, and notes. The app would allow them to categorize trips, generate expense reports, and provide them with a seamless means of revisiting and sharing their travel experiences. Users can access this information anytime and anywhere through the mobile app or web platform, ensuring that their travel data is readily available and well-organized.
+
+In conclusion, the development of a simple travel tracker app is an initiative that addresses a pressing need for individuals who are passionate about travel and who wish to simplify the management of their travel-related information. The anticipated benefits of improved organization, accessibility, and overall travel experiences more than justify the costs involved in creating and maintaining this web application.
+
+
+
+###Minimum Viable Product (MVP) Write-up
+
+*High-Level Overview of WanderLogixs App Features:*
+The WanderLogixs app offers a user-centric design to simplify travel data management. Users begin their journey by registering or signing in, creating a personalized account to enjoy synchronized data access across devices. The dashboard provides an at-a-glance overview of their travel history, displaying past trips, upcoming journeys, and quick links to common actions. To document a new journey, users can initiate the "Add a Trip" feature, inputting essential details like destination, dates, and the purpose of the trip. The "Expense Tracking" feature allows users to record expenses, categorizing them into predefined categories, while the "Itinerary Management" feature empowers users to create day-by-day itineraries, add activities, bookings, and set reminders for key events. Users can enrich their travel experience by uploading photos, videos, and notes using the "Media Upload" feature, tagging them to specific destinations or days within the trip. The "Share and Memories" feature encourages users to share their travel stories, photos, and experiences with friends and followers within the app, and it also provides an accessible repository for cherished memories of past trips. For business travelers or personal budgeting, the "Expense Reports" feature enables users to generate detailed financial reports. Finally, the "Search and Filter" feature allows users to easily locate and revisit their travel records using search and filter functions.
+
+Minimal Set of Features:
+A workable solution for users can be achieved with the following core features. The "User Registration/Sign-In" is essential to allow users to create an account and access the app. The "Dashboard" serves as a central hub for users, providing an overview of their travel history. Users can initiate the trip creation process by using the "Add a Trip" feature and enter basic trip information. The "Expense Tracking" feature enables users to record and categorize expenses. Users can create and manage day-by-day itineraries using the "Itinerary Management" feature. The "Media Upload" feature allows users to upload media and tag it to specific trips or days. Users can easily locate and revisit their travel records through the "Search and Filter" functions.
+
+High-Level Architecture:
+The app's architecture consists of three layers, including the "Presentation Layer," which is the user interface accessible via web and mobile platforms, facilitating user interactions. The "Application Layer" houses the core business logic, managing user authentication, trip creation, expense tracking, and itinerary management. The "Data Access Layer" is responsible for secure and efficient interactions with the database, ensuring seamless data retrieval and storage operations.
+
+Database:
+The app relies on a relational database system to efficiently manage data. Key data entities and their relationships include the "User Data," containing user profiles, authentication credentials, and preferences. "Trip Data" stores trip details, such as destination, dates, purpose, and user associations. "Expense Data" tracks expenses associated with specific trips, categorized by type. "Itinerary Data" manages day-by-day itineraries, including activities, notes, and their association with trips. "Media Data" contains links to photos, videos, and notes, allowing users to tag them to trips or specific days within trips. "Memory Data" records shared memories, including stories, photos, and user associations. "Search and Filter Data" includes indexes for efficient data retrieval based on user queries, enhancing the user experience and data accessibility.
+
+Business Logic:
+The business logic within the WanderLogixs application encompasses several essential components. First and foremost, it manages user authentication and authorization, ensuring that only registered and authorized users can access and modify their data. This is a fundamental aspect of the application's security and user access control. Additionally, the application incorporates intricate expense categorization and calculation logic, which allows users to categorize their expenses and may involve complex calculations, such as currency conversion or expense tracking rules. The system also handles the business logic behind itinerary planning and reminders, ensuring that users can efficiently plan their trips, update their itineraries, and receive timely reminders about their scheduled activities. Furthermore, the logic for media tagging and association is implemented, enabling users to associate photos, videos, and notes with specific trips or days within their journeys. The search and filter functionality also relies on algorithms that efficiently locate and retrieve travel records based on user queries, improving data accessibility and user experience. Lastly, the application incorporates business logic for generating detailed financial reports based on the recorded expense data, which is particularly valuable for business travelers and personal budgeting. All these aspects of business logic collectively shape the functionality and effectiveness of the WanderLogixs application, providing users with a comprehensive travel data management solution that goes beyond simple data storage and retrieval.
+
+
+In conclusion, the WanderLogixs app's high-level architecture and features cater to the needs of travelers seeking a comprehensive travel data management solution. This well-structured application architecture and the core features provided ensure efficient data organization, accessibility, and security, offering users a practical solution for their travel-related needs.
+![image](https://github.com/nmerriman17/WanderLogixs/assets/108379474/b878b2fa-411e-4709-a6db-33eff515aff5)
