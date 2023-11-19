@@ -51,7 +51,7 @@ WanderLogixs is a user-friendly travel management platform that aims to simplify
 3. Install dependencies: `npm install`
 4. Set up the backend: Refer to the backend README for instructions.
 5. Start the application: `npm start`
-6. Access the application in your browser: `http://localhost:3000`
+6. Access the application in your browser: `http://localhost:3003`
 
 ### Contribution Guidelines:
 If you'd like to contribute to WanderLogixs, please follow our [Contribution Guidelines](CONTRIBUTING.md).
